@@ -1,5 +1,4 @@
 class Twitt
-
   include Mongoid::Document
 
   field :twitt_id
@@ -7,5 +6,4 @@ class Twitt
   field :date
   field :body
   field :user_id
-  
 end
