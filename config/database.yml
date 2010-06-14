@@ -1,3 +1,0 @@
-development:
- database: spike_mongo_dev
- host: localhost

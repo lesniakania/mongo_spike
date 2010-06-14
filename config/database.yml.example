@@ -1,0 +1,11 @@
+development:
+ database: spike_mongo_dev
+ host: localhost
+
+test:
+ database: spike_mongo_test
+ host: localhost
+
+production:
+ database: spike_mongo_production
+ host: localhost
