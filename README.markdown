@@ -1,23 +1,22 @@
-== Mongo spike
+# Mongo spike
 
 Example of application using MongoDB with mongoid
 
-= Setup
+##Setup
 
 gem install bundler
 bundle install
 
-= External dependencies
+## External dependencies
 
-MongoDB
+* MongoDB
 
-= Configuration
+## Configuration
 
 config/database.yml.example
 
-= Data
+## Data
 
-db/twitter.*
-or plain text in *.dat files
-
-should be by default in /data/db
+* plain text in *.dat files
+* lib/retrieve* retrieve data and put them to database
+* mongo stores data by default in /data/db
