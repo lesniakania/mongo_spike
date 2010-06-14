@@ -1,7 +1,7 @@
 File.open('users.dat', 'r') do |f|
   while line = f.gets
     line = line.split("\t")
-    user_id = line[0]
+    user_id = line[0].to_i
     nick = line[1]
     name = line[2] =~ /\\N/ ? nil : line[2]
     location = line[3] =~ /\\N/ ? nil : line[3]

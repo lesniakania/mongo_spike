@@ -11,7 +11,7 @@ File.open('twitts.dat', 'r') do |f|
       :parent_id => parent_id,
       :date => date,
       :body => body,
-      :uder_id => user_id
+      :user_id => user_id
     )
   end
 end
