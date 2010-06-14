@@ -6,4 +6,6 @@ class Twitt
   field :date
   field :body
   field :user_id
+
+  belongs_to_related :user
 end

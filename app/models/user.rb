@@ -6,4 +6,6 @@ class User
   field :name
   field :location
   field :page_rank
+
+  has_many_related :twitts
 end
