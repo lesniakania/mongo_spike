@@ -8,4 +8,6 @@ class Twitt
   field :user_id
 
   belongs_to_related :user
+
+  validates_presence_of :body, :message => "body is required"
 end
