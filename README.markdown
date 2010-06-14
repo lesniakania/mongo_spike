@@ -19,3 +19,5 @@ config/database.yml.example
 
 db/twitter.*
 or plain text in *.dat files
+
+should be by default in /data/db
