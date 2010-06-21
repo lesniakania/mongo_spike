@@ -2,10 +2,10 @@ class Twitt
 
   include Mongoid::Document
 
-  field :twitt_id
-  field :parent_id, :index => true
-  field :date
+  field :twitt_id, :type => Integer
+  field :parent_id, :type => Integer, :index => true
+  field :date, :type => Date
   field :body
-  field :user_id
+  field :user_id, :type => Integer
   
 end

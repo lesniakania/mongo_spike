@@ -1,3 +1,14 @@
+defaults: &defaults
+  host: localhost
+  username: root
+  password:
+  adapter: mysql
+  # slaves:
+  #   - host: slave1.local
+  #     port: 27018
+  #   - host: slave2.local
+  #     port: 27019
+
 development:
- database: spike_mongo_dev
- host: localhost
+  <<: *defaults
+  database: spike_mongo_dev
